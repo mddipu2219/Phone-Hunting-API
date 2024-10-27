@@ -14,11 +14,11 @@
   <body>
     <header><h4 class="text-3xl text-center">Hunting Phone</h4></header>
     <main>
-      <section class="mb-10 mt-5 bg-gray-300 px-20 py-10 mx-20">
+      <section class="bg-gray-300 mx-8 flex md: px-6 lg:px-20 py-10 mb-10 mt-5">
         <input
           type="text"
           placeholder="search..."
-          class="input input-bordered w-full max-w-xs"
+          class="input input-bordered lg:w-full max-w-xs"
           id="search-field"
         />
         <button onclick="searchHandler()" class="btn btn-outline btn-primary">
@@ -65,11 +65,11 @@
       <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
       <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
         <div class="modal-box">
-          <h3 id="show-modals-phone-name" class="text-lg font-bold">Hello!</h3>
+          <h3 id="show-modals-phone-name" class="text-2xl mb-2 font-bold"></h3>
           <div id="show-detail-container"></div>
           <button
             onclick="document.getElementById('my_modal_5').close()"
-            class="btn btn-outline btn-primary justify-end"
+            class="btn btn-outline text-xl px-6 mt-4 btn-primary justify-end"
           >
             Close
           </button>

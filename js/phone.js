@@ -61,12 +61,12 @@ const showDetails = (phone) => {
   //
   const showDetailsContainer = document.getElementById("show-detail-container");
   showDetailsContainer.innerHTML = `
-    <img src=${phone.image} alt="Phone Image" />
+    <img class='mb-2' src=${phone.image} alt="Phone Image" />
     <p><span>Storage:</span> ${phone.mainFeatures.storage}</p>
     <p><span>DisplaySize:>${phone.mainFeatures.displaySize}</p>
     <p><span>sensors:</span> ${phone.mainFeatures.sensors}</p>
     <p><span>memory:</span> ${phone.mainFeatures.memory}</p>
-    <p><span>brand:</span> ${phone.brand}</p>
+    <p class='mb-3><span>brand:</span> ${phone.brand}</p>
   `;
 
   const myModal = document.getElementById("my_modal_5");
